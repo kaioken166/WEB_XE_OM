@@ -1,0 +1,56 @@
+.mySidenav {
+    width: 280px;
+    height: -webkit-fill-available;
+    height: 100%;
+    float: left;
+    position: fixed;
+    /* z-index: 1; */
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+}
+
+.myContent {
+    margin-left: 280px;
+}
+
+table thead,
+table tfoot {
+    position: sticky;
+    /* background-color: whitesmoke; */
+}
+
+table thead {
+    inset-block-start: 0;
+    /* "top" */
+}
+
+table tfoot {
+    inset-block-end: 0;
+    /* "bottom" */
+}
+
+.sgu {
+    background-image: url("../img/logo-sm.png");
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+.myFooter {
+    padding-left: 285px;
+    /* clear: both; */
+    /* position: absolute; */
+    left: 0;
+    /* height: 10vh; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* @media only screen and (min-width: 1920px) {
+    .myFooter {
+        position: absolute;
+    }
+} */
